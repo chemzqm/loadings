@@ -2,7 +2,7 @@
 
 Some canvas loadings like [jxnblk/loading](https://github.com/jxnblk/loading)
 
-[chemzqm.github.io/loadings/](chemzqm.github.io/loadings/)
+[chemzqm.github.io/loadings/](https://chemzqm.github.io/loadings/)
 
 Why canvas?
 
