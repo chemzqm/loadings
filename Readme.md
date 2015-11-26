@@ -32,12 +32,12 @@ s.stop()
 
 ## API
 
-### .dots(parentNode, [options])
-### .bars(parentNode, [options])
-### .wander(parentNode, [options])
-### .spin(parentNode, [options])
-### .spokes(parentNode, [options])
-### .bubbles(parentNode, [options])
+#### .dots(parentNode, [options])
+#### .bars(parentNode, [options])
+#### .wander(parentNode, [options])
+#### .spin(parentNode, [options])
+#### .spokes(parentNode, [options])
+#### .bubbles(parentNode, [options])
 
 * `parentNode`       the parentNode for canvas render
 * `options`          optional options
@@ -45,6 +45,6 @@ s.stop()
 * `options.duration` anmation duration in milisecond
 * `options.radius`   set the radius for animate region, works only with `spin` `bubbles` `spokes`
 
-### loading.stop()
+#### loading.stop()
 
 stop the animation
