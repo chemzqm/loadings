@@ -1,6 +1,6 @@
 {
   "name": "loadings",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "some canvas loadings",
   "main": "lib/index.js",
   "directories": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/chemzqm/scaffold.git"
   },
-  "keywords": [],
+  "keywords": ["loading", "animation", "spin"],
   "author": "chemzqm@gmail.com",
   "license": "MIT",
   "bugs": {

@@ -70,13 +70,13 @@ h2 {
   background-color: #C0CDAD;
 }
 
-#dots ul,li {
+#indicator ul,li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-#dots {
+#indicator {
   position: fixed;
   right: 30px;
   height: 100vh;
@@ -85,13 +85,13 @@ h2 {
   flex-flow: row nowrap;
 }
 
-#dots li {
+#indicator li {
   margin: 5px 0;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.5)
 }
-#dots li.active {
+#indicator li.active {
   background-color: rgba(255, 255, 255, 1)
 }

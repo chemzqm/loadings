@@ -14,17 +14,17 @@ Why canvas?
 
     npm i loadings
 
-You can use one of them like `require('loadings/lib/three')`, some bundle tools like [webpack](webpack.github.io), would build only the parts you need.
+You can use one of them like `require('loadings/lib/dots')`, some bundle tools like [webpack](webpack.github.io), would build only the parts you need.
 
 ## Example
 
 ``` js
-var three = require('loadings/lib/three')
+var dots = require('loadings/lib/dots')
 function $(id) {
   return document.getElementById(id)
 }
 
-var s = three(document.getElementById('three'))
+var s = dots(document.getElementById('dots'))
 
 // when you want to stop
 s.stop()
@@ -32,7 +32,7 @@ s.stop()
 
 ## API
 
-### .three(parentNode, [options])
+### .dots(parentNode, [options])
 ### .bars(parentNode, [options])
 ### .wander(parentNode, [options])
 ### .spin(parentNode, [options])

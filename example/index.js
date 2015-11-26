@@ -6,7 +6,7 @@ function $(id) {
   return document.getElementById(id)
 }
 
-loading.three($('three'))
+loading.dots($('dots'))
 loading.bubbles($('bubbles'), {
   radius: 30
 })
@@ -63,9 +63,9 @@ function activeItem() {
   var top = document.body.scrollTop
   var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
   var n = Math.round(top/vh) + 1
-  var lis = [].slice.call(document.querySelectorAll('#dots li'))
+  var lis = [].slice.call(document.querySelectorAll('#indicator li'))
   lis.forEach(function (li) {
     li.classList.remove('active')
   })
-  document.querySelector('#dots li:nth-child(' + n + ')').classList.add('active')
+  document.querySelector('#indicator li:nth-child(' + n + ')').classList.add('active')
 }
