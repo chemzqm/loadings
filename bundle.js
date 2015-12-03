@@ -270,7 +270,7 @@
 	
 	exports.createCtx = function (node) {
 	  var canvas = this.canvas  = document.createElement('canvas')
-	  node.appendChild(canvas);
+	  node.appendChild(canvas)
 	  var rect = node.getBoundingClientRect()
 	  canvas.height = rect.height
 	  canvas.width = rect.width
@@ -442,7 +442,7 @@
 	  ctx.save()
 	  var rects = []
 	  var duration = opts.duration || 1500
-	  var color = opts.color || '#ffffff'
+	  var color = opts.color || '#000000'
 	  var rgb = util.torgb(color)
 	  ctx.fillStyle = 'rgba(' + rgb.r +', ' + rgb.g + ', ' + rgb.b+ ', 1)'
 	  var alpha = 1
