@@ -28,7 +28,7 @@
     "console-polyfill": "^0.2.2",
     "coveralls": "^2.11.4",
     "css-loader": "^0.23.1",
-    "es5-shim": "^4.3.1",
+    "es5-shim": "^4.5.3",
     "expect": "^1.13.0",
     "file-loader": "^0.8.4",
     "growl": "^1.8.1",
