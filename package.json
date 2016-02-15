@@ -36,7 +36,7 @@
     "gulp-live-serve": "^1.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-util": "^3.0.7",
-    "html-loader": "^0.4.0",
+    "html-loader": "^0.4.3",
     "html5shiv": "^3.7.3",
     "istanbul": "^0.4.0",
     "istanbul-instrumenter-loader": "^0.1.3",
