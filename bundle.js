@@ -442,7 +442,7 @@
 	  ctx.save()
 	  var rects = []
 	  var duration = opts.duration || 1500
-	  var color = opts.color || '#000000'
+	  var color = opts.color || '#ffffff'
 	  var rgb = util.torgb(color)
 	  ctx.fillStyle = 'rgba(' + rgb.r +', ' + rgb.g + ', ' + rgb.b+ ', 1)'
 	  var alpha = 1
